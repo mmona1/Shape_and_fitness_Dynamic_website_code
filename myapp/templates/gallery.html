@@ -1,0 +1,97 @@
+{%extends 'layout.html'%}
+
+{%block body_block%}
+{%load static%}
+
+<div class="gallery">
+{% for post in gallery_posts %}
+<div class="gallery-item">
+<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url('{{ post.image.url }}');" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t">
+						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<h1>{{ post.title }}</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+	</header>
+	
+{% comment %} 
+	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url('backend/web/uploads/563386016.jpg');" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t">
+						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<h1>Gallery</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header> {% endcomment %}
+	{% for post in gallery_posts %}
+	<div id="fh5co-gallery">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<h2>{{ post.job_title }}</h2>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+		<div class="container-fluid">
+			<div class="row row-bottom-padded-md">
+				<div class="col-md-12">
+					<ul id="fh5co-portfolio-list" class="gallery">
+						{% for image in gallery_images %}
+						<li rel="prettyPhoto[gallery1]" class="one-third animate-box">
+							<a href="{{ image.image.url }}" rel="prettyPhoto[gallery1]">
+								<img src="{{ image.image.url }}" alt="Gallery Image">
+								<div class="case-studies-summary"></div>
+							</a>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+ <script src="{% static 'js/jquery.js' %}"></script>
+<script src="{% static 'js/yii.js' %}"></script>
+<script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+<script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+<script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+<script src="{% static 'js/owl.carousel.min.js' %}"></script>
+<script src="{% static 'js/jquery.countTo.js' %}"></script>
+<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+<script src="{% static 'js/main.js' %}"></script>
+<script src="{% static 'js/isotope.pkgd.js' %}"></script>
+<script src="{% static 'js/browseradd.js' %}"></script>
+<script src="{% static 'js/jquery.prettyPhoto.js' %}"></script>
+<script src="{% static 'js/analytics.js' %}"></script>
+<script src="{% static 'js/email-decode.min.js' %}"></script>
+
+<script type="text/javascript">jQuery(document).ready(function () {
+ 
+			$(".gallery:first a[rel^='prettyPhoto']").prettyPhoto();	
+				
+				/*$(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:3000, autoplay_slideshow: true});
+				*/
+				
+					
+});</script>  </body>
+
+<!-- Mirrored from gym.kochidigitalmarketing.com/gallery by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Jun 2023 04:38:44 GMT -->
+</html>
+{% endblock %}

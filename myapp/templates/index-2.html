@@ -1,0 +1,760 @@
+
+	
+	   
+          
+<style>
+    .services span img{
+        width:120px;
+    }
+    .servicemain{
+        min-height:610px;
+    }
+    
+     #fh5co-trainer {
+    padding: 4em 0 !important;
+}
+    
+    #fh5co-trainer .fh5co-heading {
+    margin-bottom: 3em;
+}
+  /*------------------------------------------------------------------
+    Banner Slider
+-------------------------------------------------------------------*/
+
+.slider-bg-one {
+    background-image: url("uploads/slider_01.html");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-bg-two {
+    background-image: url("uploads/slider_02.html");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-bg-three {
+    background-image: url("uploads/slider_03.html");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-content-area {
+    height: 100vh;
+    position: relative;
+}
+
+.home-one-slider-otem .slider-content-area {
+    height: 650px;
+    position: relative;
+}
+
+.slide-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 1;
+}
+
+.slide-text h1 {
+     
+    color: #fff;
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: capitalize;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.slide-text h1 span{
+	color: #cdd51f;
+}
+
+.slide-text h2 p {
+    color:#fff !important;
+    font-weight: bold;
+}
+
+
+.slide-text h2 {
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.slider-wrapper .owl-nav .owl-prev, .slider-wrapper .owl-nav .owl-next {
+    background: #cdd51f;
+    height: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.4s ease-in-out 0s;
+    width: 60px;
+	border-radius: 10px;
+}
+
+.slider-wrapper .owl-nav .owl-prev:hover, .slider-wrapper .owl-nav .owl-next:hover {
+	background: #201e21;
+}
+
+.slider-wrapper .owl-nav .owl-prev {
+    margin-left: 0%;
+	left: 0px;
+	position: absolute;
+}
+
+.slider-wrapper .owl-nav .owl-prev i{
+	position: absolute;
+	left: 0px;
+	right: 0;
+	width: auto;
+	height: auto;
+	background: #234A99;
+	color: #ffffff;
+}
+
+.slider-wrapper .owl-nav .owl-next {
+    margin-right: 0%;
+    right: 0;
+	position: absolute;
+}
+
+.slider-wrapper .owl-nav .owl-next i{
+	position: absolute;
+	right: 0;
+	left: 0px;
+	width: auto;
+	height: auto;
+	background: #234A99;
+	color: #ffffff;
+}
+
+.home-one-slider-otem::before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 100%;
+	z-index: 1
+}
+
+
+.slider-content-btn .btn11::after{
+	background: #ffffff;
+}  
+
+.owl-next i, .owl-prev i {
+    background-color: #234A99 !important;
+    border-radius: 10px;
+    color: #393939;
+    font-size: 28px;
+    height: 60px;
+    left: -10%;
+    line-height: 60px;
+    position: absolute;
+    right: auto;
+    text-align: center;
+    width: 60px;
+}
+.owl-next i:hover, .owl-prev i:hover {
+    background: #201e21 none repeat scroll 0 0;
+    color: #ffffff;
+}
+.owl-next i {
+    left: auto;
+    right: -10%;
+}
+.slider-content-btn .btn11::after {
+    background: #ffffff none repeat scroll 0 0;
+}
+.btn11 {
+    background: transparent none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    font-family: "Rubik",sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0 10px;
+    overflow: hidden;
+    padding: 10px 60px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out 0s;
+}
+.btn11:hover {
+    color: #ffffff;
+}
+.btn11::before {
+    background: #2966C2 none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    transition: all 0.65s cubic-bezier(0.77, 0, 0.175, 1) 0s;
+    width: 100%;
+    z-index: -12;
+}
+.btn11::after {
+    background: #80ffd3 none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    transition: all 0.65s cubic-bezier(0.77, 0, 0.175, 1) 0s;
+    width: 100%;
+    z-index: -15;
+}
+.btn11:hover::before, .btn11:hover::before {
+    opacity: 1;
+    transform: translateX(100%);
+}
+.btn11:hover::after, .btn11:hover::after {
+    opacity: 1;
+    transform: translateX(-100%);
+}
+
+
+.owl-theme .owl-controls .owl-nav [class*="owl-"]{
+    background:none !important;
+}
+</style>
+
+<div class="slider-area">
+		<div class="slider-wrapper ">
+						
+			<div class="slider-item text-center home-one-slider-otem slider-item-four slider-bg-three" style="background-image: url(backend/web/uploads/athlete.jpg);">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="slider-content-area">
+								<div class="slide-text">
+									<h1 class="homepage-three-title"> Don't Be Afraid Of Weights</h1>
+									<h2><p>Shape Fitness and Gym</p>
+</h2>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+						
+			<div class="slider-item text-center home-one-slider-otem slider-item-four slider-bg-three" style="background-image: url(backend/web/uploads/492741600.jpg);">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="slider-content-area">
+								<div class="slide-text">
+									<h1 class="homepage-three-title">Lift Like a Man, Look Like a Goddess</h1>
+									<h2><p>Shape Fitness and Gym</p>
+</h2>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+						
+			<div class="slider-item text-center home-one-slider-otem slider-item-four slider-bg-three" style="background-image: url(backend/web/uploads/50251172.jpg);">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="slider-content-area">
+								<div class="slide-text">
+									<h1 class="homepage-three-title">Make It a Lifestyle, Not a Duty</h1>
+									<h2><p>Shape Fitness and Gym</p>
+</h2>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+						
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+ 
+ <div id="fh5co-services" class="fh5co-bg-section">
+		<div class="container">
+			<div class="row animate-box fadeInUp animated-fast">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Our Services</h2>
+                </div>
+			</div>
+		
+		    
+		    
+			<div class="row">
+							<!--<div class="col-md-4 text-center animate-box servicemain">
+					<div class="services">
+						<span><img class="img-responsive" src="/backend/web/uploads/31065953.jpg" alt=""></span>
+						<h3>Cardio Area/Theatre</h3>
+						<p><p>A cardio theatre or cardio area includes different types of cardiovascular training-related equipment.</p>
+</p>
+					</div>
+				</div>-->
+				
+				<div class="col-lg-4 col-md-4 animate-box servicemain">
+					<div class="services fh5co-blog animate-box fadeInUp animated-fast">
+						<a href="#"><img class="img-responsive" src="backend/web/uploads/31065953.jpg" alt=""></a>
+						<div class="blog-text">
+							<h3><a href="#">Cardio Area/Theatre</a></h3>
+							<span class="posted_on">Shape Fitness and Gym</span>
+                               <p>A cardio theatre or cardio area includes different types of cardiovascular training-related equipment.</p>
+	
+						</div> 
+					</div>
+				</div>
+				
+								<!--<div class="col-md-4 text-center animate-box servicemain">
+					<div class="services">
+						<span><img class="img-responsive" src="/backend/web/uploads/313132765.jpg" alt=""></span>
+						<h3>Group Exercise Classes</h3>
+						<p><p>Different types of group exercise classes which include classes on aerobics, cycling (spinning), boxing or martial arts.</p>
+</p>
+					</div>
+				</div>-->
+				
+				<div class="col-lg-4 col-md-4 animate-box servicemain">
+					<div class="services fh5co-blog animate-box fadeInUp animated-fast">
+						<a href="#"><img class="img-responsive" src="backend/web/uploads/313132765.jpg" alt=""></a>
+						<div class="blog-text">
+							<h3><a href="#">Group Exercise Classes</a></h3>
+							<span class="posted_on">Shape Fitness and Gym</span>
+                               <p>Different types of group exercise classes which include classes on aerobics, cycling (spinning), boxing or martial arts.</p>
+	
+						</div> 
+					</div>
+				</div>
+				
+								<!--<div class="col-md-4 text-center animate-box servicemain">
+					<div class="services">
+						<span><img class="img-responsive" src="/backend/web/uploads/314320969.jpg" alt=""></span>
+						<h3>Sports Facilities</h3>
+						<p><p>We also offer plenty of facilities such as a swimming pool, squash court and a boxing area.</p>
+</p>
+					</div>
+				</div>-->
+				
+				<div class="col-lg-4 col-md-4 animate-box servicemain">
+					<div class="services fh5co-blog animate-box fadeInUp animated-fast">
+						<a href="#"><img class="img-responsive" src="backend/web/uploads/314320969.jpg" alt=""></a>
+						<div class="blog-text">
+							<h3><a href="#">Sports Facilities</a></h3>
+							<span class="posted_on">Shape Fitness and Gym</span>
+                               <p>We also offer plenty of facilities such as a swimming pool, squash court and a boxing area.</p>
+	
+						</div> 
+					</div>
+				</div>
+				
+								<!--<div class="col-md-4 text-center animate-box servicemain">
+					<div class="services">
+						<span><img class="img-responsive" src="/backend/web/uploads/320017639.jpg" alt=""></span>
+						<h3>Nutrition Counselling</h3>
+						<p><p>Our nutrition experts collaborate with you in your overall fitness by working to build a customized plan.</p>
+</p>
+					</div>
+				</div>-->
+				
+				<div class="col-lg-4 col-md-4 animate-box servicemain">
+					<div class="services fh5co-blog animate-box fadeInUp animated-fast">
+						<a href="#"><img class="img-responsive" src="backend/web/uploads/320017639.jpg" alt=""></a>
+						<div class="blog-text">
+							<h3><a href="#">Nutrition Counselling</a></h3>
+							<span class="posted_on">Shape Fitness and Gym</span>
+                               <p>Our nutrition experts collaborate with you in your overall fitness by working to build a customized plan.</p>
+	
+						</div> 
+					</div>
+				</div>
+				
+								<!--<div class="col-md-4 text-center animate-box servicemain">
+					<div class="services">
+						<span><img class="img-responsive" src="/backend/web/uploads/321460507.jpg" alt=""></span>
+						<h3>Fitness Assessment</h3>
+						<p><p>We create a dynamic exercise program after assessing your fitness and based upon your personal goals, unique metabolism and fitness level.</p>
+</p>
+					</div>
+				</div>-->
+				
+				<div class="col-lg-4 col-md-4 animate-box servicemain">
+					<div class="services fh5co-blog animate-box fadeInUp animated-fast">
+						<a href="#"><img class="img-responsive" src="backend/web/uploads/321460507.jpg" alt=""></a>
+						<div class="blog-text">
+							<h3><a href="#">Fitness Assessment</a></h3>
+							<span class="posted_on">Shape Fitness and Gym</span>
+                               <p>We create a dynamic exercise program after assessing your fitness and based upon your personal goals, unique metabolism and fitness level.</p>
+	
+						</div> 
+					</div>
+				</div>
+				
+								<!--<div class="col-md-4 text-center animate-box servicemain">
+					<div class="services">
+						<span><img class="img-responsive" src="/backend/web/uploads/32277000.jpg" alt=""></span>
+						<h3>Weight Management</h3>
+						<p><p>We provide the best weight management exercises as fitness isn&#39;t about burning calories alone. It&rsquo;s about building a healthy body &amp; a healthy mind.</p>
+</p>
+					</div>
+				</div>-->
+				
+				<div class="col-lg-4 col-md-4 animate-box servicemain">
+					<div class="services fh5co-blog animate-box fadeInUp animated-fast">
+						<a href="#"><img class="img-responsive" src="backend/web/uploads/32277000.jpg" alt=""></a>
+						<div class="blog-text">
+							<h3><a href="#">Weight Management</a></h3>
+							<span class="posted_on">Shape Fitness and Gym</span>
+                               <p>We provide the best weight management exercises as fitness isn&#39;t about burning calories alone. It&rsquo;s about building a healthy body &amp; a healthy mind.</p>
+	
+						</div> 
+					</div>
+				</div>
+				
+							</div>
+		</div>
+	</div>
+	
+	<div id="fh5co-trainer">
+		<div class="container">
+			<div class="row animate-box fadeInUp animated-fast">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>About Us</h2>
+                           <p>We, Shape Fitness And Gym, situated at Kaloor, Ernakulam, Kerala, believe everyone should have the opportunity to enjoy a fit and healthy lifestyle. So we have made it simple, affordable &amp; convenient. Whether you&#39;re a beginner or a pro, sports enthusiast, or someone simply looking for a family recreation and spa we&#39;re here for everybody. We deliver innovative fitness and lifestyle programs tailored as per your needs and goals</p>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+	<div id="fh5co-started" class="fh5co-bg" style="background-image: url(backend/web/uploads/img_bg_3.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<h2>Sculpt Your Best Body <br> </h2>
+				</div>
+			</div>
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<p><a href="site/sculpt.html" class="btn btn-default btn-lg">Become a Member</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <div id="fh5co-testimonial" class="fh5co-bg-section">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Happy Clients</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row animate-box">
+						<div class="owl-carousel " id="owl-demo3">
+						    						    
+							<div class="item">
+								<div class="testimony-slide active text-center">
+									<figure>
+										<img src="backend/web/uploads/354581490.jpg" alt="user">
+									</figure>
+									<span>Abhijith.Francis</span>
+									<blockquote>
+										<p>So far the best gym, great trainers, positive vibe &amp; also inspiring transformations. It always keeps me motivated, I have lost a bunch of weight with their help and support. So grateful I found them, come in and see for yourself.</p>
+</p>
+									</blockquote>
+								</div>
+							</div>
+													    
+							<div class="item">
+								<div class="testimony-slide active text-center">
+									<figure>
+										<img src="backend/web/uploads/380632277.jpg" alt="user">
+									</figure>
+									<span>Haroon s</span>
+									<blockquote>
+										<p>Because of my hectic schedule I used to not get time for workout. So, they asked me to come only at weekends and provided the best training. It was worth it!</p>
+</p>
+									</blockquote>
+								</div>
+							</div>
+													    
+							<div class="item">
+								<div class="testimony-slide active text-center">
+									<figure>
+										<img src="backend/web/uploads/402012682.jpg" alt="user">
+									</figure>
+									<span>Hitesh</span>
+									<blockquote>
+										<p>I&#39;m in love with my body now. The trainers over here are the best. They understand your calibre and help you increase the stamina. Fanstastic job!</p>
+</p>
+									</blockquote>
+								</div>
+							</div>
+													    
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+<!-- 
+	use the left and right arrow keys on your keyboard or just swipe left and right on your smart phone to interact with the slider
+-->
+
+
+
+<!-- end cont stats -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+        <footer id="fh5co-footer" class="fh5co-bg" style="background-image: url(backend/web/uploads/img_bg_1.jpg);" role="contentinfo">
+		<div class="overlay"></div>
+		<div class="container">
+		
+		<!--	<div class="row row-pb-md">
+				<div class="col-md-4 fh5co-widget">
+				
+					<h3>About Us</h3>
+					<p></p>
+					<p><a class="btn btn-primary" href="#">Become A Member</a></p>
+				
+				</div>
+				<div class="col-md-8">
+					<h3>Classes</h3>
+					<div class="col-md-4 col-sm-4 col-xs-6">
+						<ul class="fh5co-footer-links">
+							<li><a href="#">Cardio</a></li>
+							<li><a href="#">Body Building</a></li>
+							<li><a href="#">Yoga</a></li>
+							<li><a href="#">Boxing</a></li>
+							<li><a href="#">Running</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-4 col-sm-4 col-xs-6">
+						<ul class="fh5co-footer-links">
+							<li><a href="#">Boxing</a></li>
+							<li><a href="#">Martial Arts</a></li>
+							<li><a href="#">Karate</a></li>
+							<li><a href="#">Kungfu</a></li>
+							<li><a href="#">Basketball</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-4 col-sm-4 col-xs-6">
+						<ul class="fh5co-footer-links">
+							<li><a href="#">Badminton</a></li>
+							<li><a href="#">Body Building</a></li>
+							<li><a href="#">Teams</a></li>
+							<li><a href="#">Advertise</a></li>
+							<li><a href="#">API</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>-->
+
+			<div class="row copyright">
+			
+				<div class="col-md-12 text-center">
+<p>
+						<small class="block">&copy; 2019. All Rights Reserved.</small> 
+						<small class="block">Powered by <a href="http://mctreecreations.com/" target="_blank">McTree Creations</a></small>
+					</p>
+					<p>
+						<ul class="fh5co-social-icons">
+						
+					 									 <li><a href="https://www.facebook.com/shapefitnessandgym/"><i class="fa fa-facebook-f"></i></a></li>
+                      									 <li><a href="http://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                      									 <li><a href="http://googleplus.com/"><i class="fa fa-google"></i></a></li>
+                      						</ul>
+					</p>
+					
+				</div>
+				
+			</div>
+			<div class="row">
+              <div class="col-md-2 ">
+               <a style="color: #ccc;
+    font-size: 11px;" href="user/login.html">Login</a>
+              </div>
+          
+          </div>
+
+		</div>
+	</footer>
+ </div>
+ <script src="assets/330cae1/jquery.js"></script>
+<script src="assets/4359baae/yii.js"></script>
+<script src="assets/4929cad5/js/jquery.easing.1.3.js"></script>
+<script src="assets/4929cad5/js/jquery.waypoints.min.js"></script>
+<script src="assets/4929cad5/js/jquery.stellar.min.js"></script>
+<script src="assets/4929cad5/js/owl.carousel.min.js"></script>
+<script src="assets/4929cad5/js/jquery.countTo.js"></script>
+<script src="assets/4929cad5/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/4929cad5/js/main.js"></script>
+<script src="assets/4929cad5/js/isotope.pkgd.js"></script>
+<script src="assets/4929cad5/js/browseradd.js"></script>
+<script src="assets/4929cad5/js/jquery.prettyPhoto.js"></script>
+<script src="assets/4929cad5/js/analytics.js"></script>
+<script src="assets/4929cad5/js/email-decode.min.js"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+
+
+
+
+
+
+$(document).ready(function() {
+
+				$("#owl-demo").owlCarousel({
+					pagination: true,
+					items: 4,
+					slideSpeed : 2500,
+					stopOnHover: true,
+					autoPlay: 4000,
+					singleItem:false,
+				});
+
+			});
+			
+		
+
+$(document).ready(function() {
+
+				$("#owl-demo1").owlCarousel({
+					pagination: true,
+					items: 4,
+					slideSpeed : 2500,
+					stopOnHover: true,
+					autoPlay: 4000,
+					singleItem:false,
+				});
+
+			});
+
+
+
+
+
+
+
+
+
+
+
+
+
+     $(document).on("blur",".word_key",function(e){  		
+	e.preventDefault();	
+	var key_val=$(".word_key").val();
+	$(".key_data").val(key_val);
+
+  });
+       $(document).on("change","#looking_for",function(e){  		
+	e.preventDefault();	
+	var val=$(this).val();
+	$(".look_id").val(val);
+
+  });
+         $(document).on("change","#type_property",function(e){  		
+	e.preventDefault();	
+	var val=$(this).val();
+	$(".prop_id").val(val);
+
+  });
+         $(document).on("change","#city_select",function(e){  		
+	e.preventDefault();	
+	var val=$(this).val();
+	$(".city_id").val(val);
+
+  });
+  
+  
+  $(".slider-wrapper").owlCarousel({
+        items: 1,
+        nav: true,
+        dots: false,
+        autoplay: true,
+        loop: true,
+        navText: ["<i class=\"fa fa-angle-left\"></i>", "<i class=\"fa fa-angle-right\"></i>"],
+        mouseDrag: false,
+        touchDrag: false,
+        smartSpeed: 700
+    });
+    
+    	$("#owl-demo3").owlCarousel({
+					items: 1,
+			loop: true,
+			margin: 0,
+			autoplay: true,
+			nav: false,
+			dots: true,
+			smartSpeed: 800,
+			autoHeight: true
+				});
+
+    
+
+});</script>  </body>
+
+<!-- Mirrored from gym.kochidigitalmarketing.com/index by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Jun 2023 04:36:49 GMT -->
+</html>

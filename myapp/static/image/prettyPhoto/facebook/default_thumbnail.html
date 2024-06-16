@@ -1,0 +1,27 @@
+<pre>An Error occurred while handling another error:
+yii\base\InvalidParamException: The view file does not exist: /home/kochidig/public_html/gym/frontend/views/site/error.php in /home/kochidig/public_html/gym/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /home/kochidig/public_html/gym/vendor/yiisoft/yii2/base/View.php(149): yii\base\View-&gt;renderFile(&#039;/home/kochidig/...&#039;, Array, Object(frontend\controllers\SiteController))
+#1 /home/kochidig/public_html/gym/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View-&gt;render(&#039;error&#039;, Array, Object(frontend\controllers\SiteController))
+#2 /home/kochidig/public_html/gym/vendor/yiisoft/yii2/web/ErrorAction.php(108): yii\base\Controller-&gt;render(&#039;error&#039;, Array)
+#3 [internal function]: yii\web\ErrorAction-&gt;run()
+#4 /home/kochidig/public_html/gym/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#5 /home/kochidig/public_html/gym/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action-&gt;runWithParams(Array)
+#6 /home/kochidig/public_html/gym/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller-&gt;runAction(&#039;error&#039;, Array)
+#7 /home/kochidig/public_html/gym/vendor/yiisoft/yii2/web/ErrorHandler.php(85): yii\base\Module-&gt;runAction(&#039;site/error&#039;)
+#8 /home/kochidig/public_html/gym/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler-&gt;renderException(Object(yii\web\NotFoundHttpException))
+#9 [internal function]: yii\base\ErrorHandler-&gt;handleException(Object(yii\web\NotFoundHttpException))
+#10 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request &quot;assets/4929cad5/images/prettyPhoto/facebook/default_thumbnail.gif&quot;. in /home/kochidig/public_html/gym/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /home/kochidig/public_html/gym/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module-&gt;runAction(&#039;assets/4929cad5...&#039;, Array)
+#1 /home/kochidig/public_html/gym/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application-&gt;handleRequest(Object(common\components\Request))
+#2 /home/kochidig/public_html/gym/frontend/web/index.php(20): yii\base\Application-&gt;run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/kochidig/public_html/gym/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/kochidig/public_html/gym/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application-&gt;handleRequest(Object(common\components\Request))
+#1 /home/kochidig/public_html/gym/frontend/web/index.php(20): yii\base\Application-&gt;run()
+#2 {main}</pre>

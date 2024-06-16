@@ -1,0 +1,39 @@
+
+<div class="slider-area">
+	<div class="slider-wrapper " >
+		{% for post in  slider_posts %}
+		{% if forloop.counter == 1 %}
+<div class="item active">
+{% else %}
+<div class="item">
+{% endif %}
+		
+					
+		<div class="slider-item text-center home-one-slider-otem slider-item-four slider-bg-three" style="background-image: url('{{ post.image.url }}');">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="slider-content-area">
+							<div class="slide-text">
+								<h1 class="homepage-three-title"> {{ post.title }}</h1>
+								<h2><p>{{ post.job_title }}</p>
+</h2>
+							
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+					
+		
+		
+		</div>
+	{% endfor %}
+	</div>
+	
+					
+		
+
+
+
